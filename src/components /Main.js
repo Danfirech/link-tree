@@ -8,14 +8,17 @@ const MainContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: pink;
+  background-color: #fdfbfb;
 `;
 
 const LinkBoxes = styled.div`
-  height: 12%;
+  height: 10%;
   width: 30%;
   border: black solid 1px;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Main = () => {
@@ -32,7 +35,7 @@ const Main = () => {
           <div>Hire me</div>
         </LinkBoxes>
         <LinkBoxes>
-          <div></div>
+          <div>Contact: Email</div>
         </LinkBoxes>
       </MainContainer>
     </>
