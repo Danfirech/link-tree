@@ -8,22 +8,34 @@ const MainContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fdfbfb;
+  background-color: black;
+`;
+
+const OutsideLinkBox = styled.div`
+  height: 41px;
+  width: 31%;
+  border: pink solid 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 `;
 
 const LinkBoxes = styled.div`
   height: 40px;
   width: 30%;
-  border: #00ffc6 solid 1px;
+  border: #e1b4eb solid 1px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: 2px solid #51195d;
+  border-radius: 5px;
 
   .words {
     font-family: "Noto Sans Display", sans-serif;
     font-size: 20px;
-    color: #30aadd;
+    color: white;
     font-weight: bold;
   }
 
@@ -54,6 +66,11 @@ const Main = () => {
         <LinkBoxes>
           <a href="https://www.w3schools.com">
             <div className="words">Bio</div>
+          </a>
+        </LinkBoxes>
+        <LinkBoxes>
+          <a href="https://www.w3schools.com">
+            <div className="words">Contact: Email</div>
           </a>
         </LinkBoxes>
         <LinkBoxes>

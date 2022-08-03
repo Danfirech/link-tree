@@ -8,12 +8,12 @@ const MainContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fdfbfb;
+  background-color: black;
 
   img {
     margin-top: 250px;
-    height: 240px;
-    width: 240px;
+    height: 220px;
+    width: 250px;
     border-radius: 50%;
     margin-left: 50px;
   }
@@ -22,7 +22,7 @@ const MainContainer = styled.div`
     margin-top: 250px;
     font-family: "Noto Sans Display", sans-serif;
     font-size: 20px;
-    color: #30aadd;
+    color: white;
     font-weight: bold;
   }
 `;
