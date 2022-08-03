@@ -11,9 +11,9 @@ const MainContainer = styled.div`
   background-color: black;
 
   img {
-    margin-top: 250px;
-    height: 220px;
-    width: 250px;
+    margin-top: 210px;
+    height: 240px;
+    width: 280px;
     border-radius: 50%;
     margin-left: 50px;
   }
